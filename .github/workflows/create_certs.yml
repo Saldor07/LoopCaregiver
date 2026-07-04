@@ -100,7 +100,7 @@ jobs:
           uses: actions/checkout@v5
 
         - name: Install dependencies
-          run: install bundler
+          run: gem install bundler -v 2.4.22
 
         - name: Run Fastlane nuke_certs
           run: |
